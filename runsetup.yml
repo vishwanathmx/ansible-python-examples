@@ -1,0 +1,7 @@
+---
+- name:
+  hosts: all
+  roles:
+    - name: Configure Hosts
+      role: apache
+

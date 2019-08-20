@@ -1,0 +1,7 @@
+---
+# tasks file for roles/apach
+- name: Install httpd Package
+  apt: name=apache2 update_cache=yes state=latest
+
+- name: Start and Enable httpd service
+  service: name=apache2 state=restarted enabled=yes
