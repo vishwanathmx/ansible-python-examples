@@ -1,0 +1,10 @@
+---
+
+- hosts: all
+  remote_user: centos
+  become: yes
+
+  roles:
+    - common
+    - web
+    - db

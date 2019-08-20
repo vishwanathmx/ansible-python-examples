@@ -1,0 +1,11 @@
+---
+- hosts: localhost
+  become: true
+  tasks:
+   - name: Ansible create file if it doesn't exist example
+     dnf:
+           name: "{{ packages }}"
+           state: present
+     vars:
+           packages:
+              - apache2

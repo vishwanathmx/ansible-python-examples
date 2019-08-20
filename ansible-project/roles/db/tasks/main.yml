@@ -1,0 +1,4 @@
+---
+# tasks file for db
+- name: Update and upgrade apt packege
+  shell: echo "Hi db"

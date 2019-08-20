@@ -1,0 +1,5 @@
+---
+# tasks file for web
+- name: Install Nginx
+  shell: echo "Hi Web"
+ 
