@@ -1,0 +1,4 @@
+---
+# tasks file for common
+- debug:
+    msg: User :{{ customer }} has this msg for you " {{ msg }} "

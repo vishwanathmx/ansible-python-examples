@@ -1,0 +1,7 @@
+---
+# tasks file for common
+- name: Basic Template Example
+  template:
+        src: /home/centos/xpninad/PythonWorkspace/project-lemp/example.j2
+        dest: /home/centos/xpninad/PythonWorkspace/output.txt
+

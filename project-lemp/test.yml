@@ -1,0 +1,15 @@
+---
+- hosts: test
+  become: true
+  tasks:
+   - name: Test
+     file:
+       path: "devops_server1.txt"       
+     tags: 
+     - test
+
+   - name: Test1
+     file:
+       path: "devops_server2.txt"       
+     tags: 
+     - test1   
