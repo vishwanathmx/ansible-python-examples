@@ -1,2 +1,2 @@
 #!/bin/bash
-sudo apt-get install telnet -y
+sudo apt-get install mysql-server -y
